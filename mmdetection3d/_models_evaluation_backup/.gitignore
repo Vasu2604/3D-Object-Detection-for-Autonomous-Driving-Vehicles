@@ -1,0 +1,13 @@
+# Ignore data and heavy artifacts
+data/
+checkpoints/
+work_dirs/
+results/
+nuscenes*/
+*.pth
+*.ckpt
+*.pkl
+*.npz
+*.pt
+# Ignore Jupyter checkpoints
+.ipynb_checkpoints/

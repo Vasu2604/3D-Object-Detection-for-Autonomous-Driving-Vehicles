@@ -1,0 +1,26 @@
+============================================================
+3D Object Detection Demo - Fine-tuned CenterPoint Model
+============================================================
+
+Config: configs/centerpoint/centerpoint_voxel01_second_secfpn_8xb4-cyclic-20e_nus-3d.py
+Checkpoint: work_dirs/centerpoint_mini_finetune/epoch_20.pth
+
+[1/5] Initializing model...
+Loads checkpoint by local backend from path: work_dirs/centerpoint_mini_finetune/epoch_20.pth
+✓ Model loaded successfully!
+
+[2/5] Loading sample from mini dataset...
+Available samples: 81
+Sample #0
+LiDAR file: data/nuscenes/n008-2018-08-01-15-16-36-0400__LIDAR_TOP__1533151603547590.pcd.bin
+
+WARNING: LiDAR file not found. Using dummy data for visualization.
+Using synthetic data for demonstration
+
+[5/5] Creating visualization...
+
+✓ Visualization saved to: demo_output/real_model_inference.png
+
+============================================================
+Demo completed successfully!
+============================================================

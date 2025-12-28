@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Mac OS
+.DS_Store
+
+# MMDetection3D / PyTorch
+work_dirs/
+checkpoints/
+*.pth
+*.pkl
+*.log
+
+# Editor
+.vscode/
+.idea/
+
+# Data
+data/
