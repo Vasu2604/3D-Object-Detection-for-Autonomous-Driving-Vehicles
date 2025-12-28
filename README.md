@@ -1,4 +1,4 @@
-# Final Project: 3D Object Detection for Intelligent Autonomous Vehicles
+# Final Project: CenterPoint 3D Object Detection on nuScenes Dataset for Intelligent Autonomous Vehicles
 
 ## 📖 Project Overview
 
